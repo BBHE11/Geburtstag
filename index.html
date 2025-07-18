@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🥳 D’Überraschig vom Jahr! 🎉</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #ffd6e0, #fff7c2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      background: white;
+      padding: 3rem;
+      border-radius: 2rem;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      max-width: 700px;
+      animation: popIn 1.2s ease-out;
+      position: relative;
+    }
+
+    @keyframes popIn {
+      0% { transform: scale(0.7); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3.5rem;
+      color: #ff4d6d;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 1.8;
+      color: #444;
+    }
+
+    em {
+      background-color: #fff4a3;
+      padding: 0 4px;
+      border-radius: 4px;
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    strong {
+      color: #e60073;
+    }
+
+    .highlight {
+      background: #d1ffe3;
+      padding: 2px 6px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .sparkles {
+      font-size: 1.5rem;
+      animation: sparkle 2s infinite;
+    }
+
+    @keyframes sparkle {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 1rem;
+      color: #999;
+      font-style: italic;
+    }
+
+    .confetti {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background-image: url('https://media.giphy.com/media/xT8qBepJQzUjzFvM1e/giphy.gif');
+      background-size: cover;
+      opacity: 0.2;
+      z-index: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="confetti"></div>
+    <h1>🎂 O M G – Es isch DIN Tag! 🎈</h1>
+    <p>
+      💖 Mini liebi Schwöschter, hüt wird's <strong>legendär</strong>!<br><br>
+      Du denkst jetzt sicher: <em>"Was isch das für e Site?"</em><br>
+      Und ich säg dir: Das isch nöd irgend e Chärtli, das isch es <em>Vorbebebe</em>! 🌋<br><br>
+      I ha da öppis vorbereitet... Es isch <span class="highlight">rund</span>, es chunt in <span class="highlight">Etappe</span>, es cha sich <span class="highlight">wälze</span>.<br>
+      Wärm dini Händ uuf, schnall dini Neugier a, und heb Hunger mit... äh... Freud!<br><br>
+      Denn... Es wird <strong>absolut nüt Normals</strong>. Es wird <em>delikat</em>, <em>kunstvoll</em>, und würklich nur für dich.<br>
+      So viel cha i verrate: Was chunt, isch <strong>kei</strong> Zuefall – es isch <strong>Kai</strong> Zufall.
+    </p>
+    <div class="sparkles">✨✨✨</div>
+    <div class="footer">Ganz liebi Grüess,<br><strong style="font-family: 'Pacifico', cursive; color: #ff4d6d; font-size: 1.2rem;">Din Yanis 🎁</strong></div>
+  </div>
+</body>
+</html>
